@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ONG Solidarité - Site Web
 
 Un site web moderne et professionnel pour une organisation non gouvernementale (ONG) dédiée à l'aide humanitaire et au développement durable.
@@ -246,3 +247,7 @@ Pour toute question ou assistance concernant ce site web :
 ---
 
 **ONG Solidarité - Construire un monde plus juste et solidaire** 🌍✨
+=======
+# Projet_EJEF
+Projet de site web de l'ONG EJEF
+>>>>>>> d9c98cd6214f41844a1f695bfbe36ced24e5c90d
