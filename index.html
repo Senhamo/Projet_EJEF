@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG EJEF - Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>ONG EJEF</h1>
+                </div>
+                <ul class="nav-menu">
+                     <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="about.html" class="nav-link">À propos <span class="dropdown-arrow"><i class="fas fa-chevron-down"></i></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="missions.html">Mission</a></li>
+                            <li><a href="vision.html">Vision</a></li>
+                            <li><a href="team.html">Équipe</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="events-list.html" class="nav-link">Événements <span class="dropdown-arrow"><i class="fas fa-chevron-down"></i></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="events-list.html">Liste des événements</a></li>
+                            <li><a href="event-detail.html">Détail événement</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Actualités / Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="donate.html" class="nav-link">Faire un don</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-disabled">Connexion (à venir)</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero avec vidéo de fond -->
+        <section class="hero hero-video">
+            <div class="video-background">
+                <video autoplay muted loop playsinline>
+                    <source src="media/presentation.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h2>Ensemble, construisons un monde meilleur</h2>
+                <p>Notre ONG est une organisation engagée dans la promotion des droits de l’enfant et la protection des femmes vulnérables.</p>
+                <div class="hero-buttons">
+                    <a href="missions.html" class="btn btn-primary">Nos missions</a>
+                    <a href="contact.html" class="btn btn-secondary">Nous contacter</a>
+                </div>
+                <div class="hero-video-cta">
+                    <a href="videos.html" class="video-link">
+                        <i class="fas fa-video"></i>
+                        Découvrez nos vidéos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>50,000+</h3>
+                        <p>Vies améliorées</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>25+</h3>
+                        <p>Pays intervenus</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100+</h3>
+                        <p>Projets réalisés</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Bénévoles actifs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Nos domaines d'intervention</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Aide humanitaire</h3>
+                        <p>Distribution de nourriture, soins médicaux et logements d'urgence pour les populations en détresse.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Éducation</h3>
+                        <p>Construction d'écoles, formation des enseignants et fourniture de matériel scolaire.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Développement durable</h3>
+                        <p>Projets d'eau potable, agriculture durable et énergies renouvelables.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section vidéo témoignages -->
+        <section class="video-testimonials-home">
+            <div class="container">
+                <h2>Ils ont vécu nos missions</h2>
+                <p>Découvrez les témoignages bouleversants des personnes que nous avons aidées</p>
+                <div class="testimonials-video-grid">
+                    <div class="testimonial-video-card">
+                        <div class="video-wrapper">
+                            <video controls preload="metadata" poster="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400&h=225&fit=crop">
+                                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="testimonial-content">
+                            <h3>Fatou, Sénégal</h3>
+                            <p>"L'eau potable a complètement changé notre vie de village."</p>
+                            <a href="videos.html" class="btn btn-outline">Voir plus de témoignages</a>
+                        </div>
+                    </div>
+                    <div class="testimonial-video-card">
+                        <div class="video-wrapper">
+                            <video controls preload="metadata" poster="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=225&fit=crop">
+                                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="testimonial-content">
+                            <h3>Mariam, Mali</h3>
+                            <p>"Je suis la première fille de mon village à aller à l'école."</p>
+                            <a href="videos.html" class="btn btn-outline">Voir plus de témoignages</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Rejoignez notre cause</h2>
+                <p>Devenez bénévole, faites un don ou partagez notre mission</p>
+                <a href="contact.html" class="btn btn-primary">S'impliquer</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ONG EJEF</h3>
+                    <p>Construire un monde plus juste et solidaire</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 Rue de l'Espoir<br>
+                    75000 Paris, France<br>
+                    contact@ong-solidarite.org</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ONG EJEF. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faire un don - ONG EJEF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>ONG EJEF</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="about.html" class="nav-link">À propos <span class="dropdown-arrow"><i class="fas fa-chevron-down"></i></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="missions.html">Mission</a></li>
+                            <li><a href="vision.html">Vision</a></li>
+                            <li><a href="team.html">Équipe</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="events-list.html" class="nav-link">Événements <span class="dropdown-arrow"><i class="fas fa-chevron-down"></i></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="events-list.html">Liste des événements</a></li>
+                            <li><a href="event-detail.html">Détail événement</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Actualités / Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="donate.html" class="nav-link active">Faire un don</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Faire un don</h1>
+                <p>Soutenez nos actions et aidez-nous à changer des vies</p>
+            </div>
+        </section>
+
+        <section class="donate-section">
+            <div class="container">
+                <div class="donate-intro">
+                    <h2>Votre générosité compte</h2>
+                    <p>Chaque don, quel que soit son montant, nous aide à poursuivre notre mission et à soutenir les communautés dans le besoin.</p>
+                </div>
+
+                <div class="donation-amounts">
+                    <h3>Choisir un montant</h3>
+                    <div class="amount-grid">
+                        <button class="amount-btn">
+                            <span class="amount">5 000</span>
+                            <span class="currency">FCFA</span>
+                        </button>
+                        <button class="amount-btn">
+                            <span class="amount">10 000</span>
+                            <span class="currency">FCFA</span>
+                        </button>
+                        <button class="amount-btn active">
+                            <span class="amount">25 000</span>
+                            <span class="currency">FCFA</span>
+                        </button>
+                        <button class="amount-btn">
+                            <span class="amount">50 000</span>
+                            <span class="currency">FCFA</span>
+                        </button>
+                        <button class="amount-btn">
+                            <span class="amount">100 000</span>
+                            <span class="currency">FCFA</span>
+                        </button>
+                        <button class="amount-btn custom">
+                            <span class="amount">Autre</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="donation-frequency">
+                    <h3>Fréquence du don</h3>
+                    <div class="frequency-options">
+                        <label class="frequency-option">
+                            <input type="radio" name="frequency" value="once" checked>
+                            <span class="option-label">Don unique</span>
+                        </label>
+                        <label class="frequency-option">
+                            <input type="radio" name="frequency" value="monthly">
+                            <span class="option-label">Don mensuel</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="donation-info">
+                    <h3>Comment votre don aide</h3>
+                    <div class="impact-grid">
+                        <div class="impact-card">
+                            <i class="fas fa-book"></i>
+                            <h4>Éducation</h4>
+                            <p>5 000 FCFA = Fournitures scolaires pour un enfant</p>
+                        </div>
+                        <div class="impact-card">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Alimentation</h4>
+                            <p>10 000 FCFA = Repas pour une famille pendant une semaine</p>
+                        </div>
+                        <div class="impact-card">
+                            <i class="fas fa-heartbeat"></i>
+                            <h4>Santé</h4>
+                            <p>25 000 FCFA = Consultation médicale pour un patient</p>
+                        </div>
+                        <div class="impact-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Formation</h4>
+                            <p>50 000 FCFA = Formation professionnelle pour un jeune</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="donation-form">
+                    <h3>Informations du donateur</h3>
+                    <form class="form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Prénom</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Nom</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message (optionnel)</label>
+                            <textarea id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large">Procéder au paiement</button>
+                    </form>
+                </div>
+
+                <div class="donation-secure">
+                    <i class="fas fa-lock"></i>
+                    <p>Paiements sécurisés. Vos informations personnelles sont protégées.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ONG EJEF</h3>
+                    <p>Ensemble pour un avenir meilleur.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ONG EJEF. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

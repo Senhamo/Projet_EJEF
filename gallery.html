@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - ONG EJEF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>ONG EJEF</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="about.html" class="nav-link">À propos <span class="dropdown-arrow"><i class="fas fa-chevron-down"></i></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="missions.html">Mission</a></li>
+                            <li><a href="vision.html">Vision</a></li>
+                            <li><a href="team.html">Équipe</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="events-list.html" class="nav-link">Événements <span class="dropdown-arrow"><i class="fas fa-chevron-down"></i></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="events-list.html">Liste des événements</a></li>
+                            <li><a href="event-detail.html">Détail événement</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link active">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Actualités / Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="donate.html" class="nav-link">Faire un don</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Notre Galerie</h1>
+                <p>Découvrez nos moments forts en images</p>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="evenements">Événements</button>
+                    <button class="filter-btn" data-filter="terrain">Actions sur le terrain</button>
+                    <button class="filter-btn" data-filter="education">Éducation</button>
+                    <button class="filter-btn" data-filter="communaute">Communauté</button>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="evenements">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Forum caritatif 2025</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="terrain">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Distribution alimentaire</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="education">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Construction d'école au Mali</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="communaute">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Réunion communautaire</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="terrain">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Forage de puits</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="education">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Remise de fournitures scolaires</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="evenements">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Journée de sensibilisation</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="communaute">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Formation agriculteurs</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="terrain">
+                        <div class="gallery-placeholder">
+                            <i class="fas fa-image"></i>
+                            <span>Clinique mobile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ONG EJEF</h3>
+                    <p>Ensemble pour un avenir meilleur.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ONG EJEF. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

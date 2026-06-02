@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos vidéos - ONG EJEF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>ONG EJEF</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="about.html" class="nav-link">À propos <span class="dropdown-arrow"><i class="fas fa-chevron-down"></i></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="missions.html">Mission</a></li>
+                            <li><a href="vision.html">Vision</a></li>
+                            <li><a href="team.html">Équipe</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="events-list.html" class="nav-link">Événements <span class="dropdown-arrow"><i class="fas fa-chevron-down"></i></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="events-list.html">Liste des événements</a></li>
+                            <li><a href="event-detail.html">Détail événement</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Actualités / Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="donate.html" class="nav-link">Faire un don</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+        <div class="container">
+            <h1>Nos Vidéos</h1>
+            <p>Découvrez nos actions sur le terrain à travers nos vidéos</p>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section class="video-gallery">
+        <div class="container">
+            <!-- Category Filter -->
+            <div class="video-categories">
+                <button class="category-btn active" data-category="all">Toutes</button>
+                <button class="category-btn" data-category="humanitaire">Aide humanitaire</button>
+                <button class="category-btn" data-category="education">Éducation</button>
+                <button class="category-btn" data-category="developpement">Développement</button>
+                <button class="category-btn" data-category="temoignage">Témoignages</button>
+            </div>
+
+            <!-- Video Grid -->
+            <div class="video-grid">
+                <!-- Video 1 - Aide Humanitaire -->
+                <div class="video-item" data-category="humanitaire">
+                    <div class="video-container">
+                        <video controls playsinline webkit-playsinline>
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                        <div class="video-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Distribution de kits alimentaires au Sénégal</h3>
+                        <p>Notre mission d'aide humanitaire en action</p>
+                        <span class="video-category">Aide humanitaire</span>
+                    </div>
+                </div>
+
+                <!-- Video 2 - Éducation -->
+                <div class="video-item" data-category="education">
+                    <div class="video-container">
+                        <video controls playsinline webkit-playsinline poster="https://via.placeholder.com/400x225/3498db/ffffff?text=Construction+École">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                        <div class="video-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Construction d'écoles au Mali</h3>
+                        <p>Donner accès à l'éducation pour un avenir meilleur</p>
+                        <span class="video-category">Éducation</span>
+                    </div>
+                </div>
+
+                <!-- Video 3 - Développement -->
+                <div class="video-item" data-category="developpement">
+                    <div class="video-container">
+                        <video controls playsinline webkit-playsinline poster="https://via.placeholder.com/400x225/27ae60/ffffff?text=Agriculture+Durable">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                        <div class="video-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Formation à l'agriculture durable</h3>
+                        <p>Autonomiser les communautés rurales</p>
+                        <span class="video-category">Développement</span>
+                    </div>
+                </div>
+
+                <!-- Video 4 - Témoignage -->
+                <div class="video-item" data-category="temoignage">
+                    <div class="video-container">
+                        <video controls playsinline webkit-playsinline poster="https://via.placeholder.com/400x225/e74c3c/ffffff?text=Témoignage+Bénéficiaire">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                        <div class="video-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Témoignage: Marie du Burkina Faso</h3>
+                        <p>Comment notre programme a changé sa vie</p>
+                        <span class="video-category">Témoignages</span>
+                    </div>
+                </div>
+
+                <!-- Video 5 - Aide Humanitaire -->
+                <div class="video-item" data-category="humanitaire">
+                    <div class="video-container">
+                        <video controls playsinline webkit-playsinline poster="https://via.placeholder.com/400x225/f39c12/ffffff?text=Urgence+Eau">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                        <div class="video-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Forage de puits d'eau potable</h3>
+                        <p>Résolution de la crise de l'eau au Sénégal</p>
+                        <span class="video-category">Aide humanitaire</span>
+                    </div>
+                </div>
+
+                <!-- Video 6 - Témoignage -->
+                <div class="video-item" data-category="temoignage">
+                    <div class="video-container">
+                        <video controls playsinline webkit-playsinline poster="https://via.placeholder.com/400x225/9b59b6/ffffff?text=Témoignage+Volontaire">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Votre navigateur ne supporte pas la lecture vidéo.
+                        </video>
+                        <div class="video-overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Témoignage: Notre volontaire Ahmed</h3>
+                        <p>Son expérience sur le terrain au Sénégal</p>
+                        <span class="video-category">Témoignages</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Video Section -->
+    <section class="featured-video">
+        <div class="container">
+            <h2>Video à la une</h2>
+            <div class="featured-video-container">
+                <video controls playsinline webkit-playsinline poster="https://via.placeholder.com/800x450/e67e22/ffffff?text=Video+Mise+en+Avant">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture vidéo.
+                </video>
+                <div class="featured-video-info">
+                    <h3>20 ans d'impact: Notre parcours</h3>
+                    <p>Revivez deux décennies d'actions humanitaires à travers cette vidéo spéciale. Depuis nos premiers pas jusqu'à nos projets actuels, découvrez comment nous avons transformé des milliers de vies à travers le monde.</p>
+                    <div class="video-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-eye"></i>
+                            <span>15,234 vues</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-thumbs-up"></i>
+                            <span>892 mentions J'aime</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-share"></i>
+                            <span>234 partages</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+        <div class="container">
+            <h2>Rejoignez notre cause</h2>
+            <p>Ensemble, nous pouvons continuer à créer un impact positif dans le monde</p>
+            <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ONG EJEF</h3>
+                    <p>Ensemble, construisons un monde meilleur</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 Rue de l'Espoir, 75000 Paris</p>
+                    <p>Email: contact@ong-solidarite.org</p>
+                    <p>Tél: +33 1 23 45 67 89</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ONG EJEF. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Video category filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryBtns = document.querySelectorAll('.category-btn');
+            const videoItems = document.querySelectorAll('.video-item');
+
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    
+                    // Update active button
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter videos
+                    videoItems.forEach(item => {
+                        if (category === 'all' || item.getAttribute('data-category') === category) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 10);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // Video play button overlay
+            const videoContainers = document.querySelectorAll('.video-container');
+            videoContainers.forEach(container => {
+                const video = container.querySelector('video');
+                const overlay = container.querySelector('.video-overlay');
+                
+                if (overlay && video) {
+                    overlay.addEventListener('click', function() {
+                        video.play();
+                        overlay.style.display = 'none';
+                    });
+                    
+                    video.addEventListener('play', function() {
+                        overlay.style.display = 'none';
+                    });
+                    
+                    video.addEventListener('pause', function() {
+                        overlay.style.display = 'flex';
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
